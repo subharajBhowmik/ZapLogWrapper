@@ -1,7 +1,7 @@
 package model
 
 import (
-	"ZapLogWrapper"
+	"ZapLogWrapper/utils"
 	"go.uber.org/zap"
 )
 
@@ -30,7 +30,7 @@ func (l *ZapLogError) Error() string {
 }
 
 func (l *ZapLogError) BuildZapLogMessageAndFields(addedFields ...interface{}) {
-	l.Message, l.ZapFields = ZapLogWrapper.GenerateZapLog(l.ErrSrc, l.ErrCode, l.ErrSubCode, l.ErrCause, addedFields...)
+	l.Message, l.ZapFields = utils.GenerateZapLog(l.ErrSrc, l.ErrCode, l.ErrSubCode, l.ErrCause, addedFields...)
 }
 
 func (l *ZapLogError) WithError(alternateError error) *ZapLogError {
