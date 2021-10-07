@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"ZapLogWrapper/constants"
 	"fmt"
+	"github.com/subharajBhowmik/ZapLogWrapper/constants"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

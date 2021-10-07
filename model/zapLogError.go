@@ -1,7 +1,7 @@
 package model
 
 import (
-	"ZapLogWrapper/utils"
+	"github.com/subharajBhowmik/ZapLogWrapper/utils"
 	"go.uber.org/zap"
 )
 
