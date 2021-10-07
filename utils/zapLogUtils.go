@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/subharajBhowmik/ZapLogWrapper/constants"
+	"go.nis.org/zapLogWrapper/constants"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
