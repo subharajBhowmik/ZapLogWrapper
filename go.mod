@@ -1,4 +1,4 @@
-module ZapLogWrapper
+module github.com/subharajBhowmik/ZapLogWrapper
 
 go 1.16
 
