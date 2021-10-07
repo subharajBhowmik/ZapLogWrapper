@@ -1,4 +1,4 @@
-package ZapLogWrapper
+package NISZapLogWrapper
 
 import (
 	"go.uber.org/zap"
